@@ -31,7 +31,7 @@ padding-bottom: 20px;
 .big-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 5vw;
   line-height: 1.5;
   text-align: center;
   padding-top: 120px;
@@ -39,7 +39,7 @@ padding-bottom: 20px;
 }
 .tagline{
     text-align: center;
-      font-size: 2.5rem;
+    font-size: 3vw;
 }
 .section-heading {
   font-size: 3rem;
@@ -47,9 +47,15 @@ padding-bottom: 20px;
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 
+.container-fluid2 {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right:15%;
+  padding-bottom: 0;
+}
 /*sections  */
 
 .coloured-section{
@@ -63,7 +69,6 @@ padding-bottom: 20px;
 
 .start-section{
     background-color: #fff;
-    margin-bottom: -130px;
 }
 
 /*Title  */
@@ -76,7 +81,7 @@ padding-bottom: 20px;
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   color: #901557;
-  font-size: 2.5rem;
+  font-size: 3vw;
   font-weight: bold;
 }
 
