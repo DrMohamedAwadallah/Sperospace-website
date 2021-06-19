@@ -158,29 +158,30 @@
           </p>
 
 
-          <form action="mailto:info@sperospace.com" enctype='text/plain' style="text-align:left">
-            <div class="mb-3">
-              <label for="exampleInputname" class="form-label">FULL NAME</label>
-              <input type="text" class="form-control" id="exampleInputname">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">EMAIL ADDRESS</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputnumber" class="form-label">CONTACT NUMBER </label>
-              <input type="number" class="form-control" id="exampleInputnumber">
-            </div>
 
-            <div class="mb-3">
-              <label for="exampleInputcomment" class="form-label ">ADD COMMENT </label>
-              <textarea type="text" class="form-control" id="exampleInputcomment"></textarea>
-            </div>
+                    <form action="mailto:info@sperospace.com" method="post" enctype='text/plain' style="text-align:left">
+                      <div class="mb-3">
+                        <label for="exampleInputname" class="form-label">FULL NAME </label>
+                        <input type="text" class="form-control" name="name"  id="exampleInputname">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">EMAIL ADDRESS </label>
+                        <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputsubject" class="form-label">SUBJECT </label>
+                        <input type="subject" name = "subject" class="form-control" id="exampleInputnumber">
+                      </div>
 
-            <div class="text-right">
-              <button type="submit" class="btn btn-dark btntext">SUBMIT</button>
-            </div>
-          </form>
+                      <div class="mb-3">
+                        <label for="exampleInputcomment" class="form-label ">CONTENT </label>
+                        <textarea type="text" name="comment" class="form-control" id="exampleInputcomment"></textarea>
+                      </div>
+
+                      <div class="text-right">
+                        <button type="submit" class="btn btn-dark btntext">SUBMIT</button>
+                      </div>
+                    </form>
         </div>
 
       </div>
