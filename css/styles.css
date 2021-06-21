@@ -15,8 +15,26 @@ h1{
 iframe{
   color: black;
   background-color: black;
-  
+
 }
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.team-social {
+	width: 50%;
+	padding-top: 0px;
+	margin: auto;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 5px;
+}
+
 
 p {
   color: #8f8f8f;
