@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-    color: #901557;
+    color: #3d6098;
 }
 
 iframe{
@@ -41,7 +41,7 @@ p {
 }
 
 .news-image{
-width: 400px;
+width: 600px;
 padding-right:20px;
 padding-bottom: 20px;
 
@@ -49,7 +49,7 @@ padding-bottom: 20px;
 
 .news-para{
   text-align: left;
-  color: black;
+  color: white;
 }
 
 .big-heading {
@@ -58,12 +58,14 @@ padding-bottom: 20px;
   font-size: 3.5rem;
   line-height: 1.5;
   text-align: center;
-  padding-top: 120px;
-  color: #901557;
+  padding-top: 70px;
+  padding-bottom: 35px;
+  color: #8FD6E1;
 }
 .tagline{
     text-align: center;
     font-size: 3vw;
+    color:  #D1D9D9;
 }
 .section-heading {
   font-size: 2rem;
@@ -104,7 +106,7 @@ padding-bottom: 20px;
 
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
-  color: #901557;
+  color: #09015F;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -140,6 +142,11 @@ padding-bottom: 20px;
   font-family: 'Montserrat';
   font-size: 1.5rem;
   font-weight: 700;
+  color : #1597BB;
+}
+
+.name{
+  color : #1597BB;
 }
 
 .icons {
@@ -148,7 +155,7 @@ padding-bottom: 20px;
 }
 
 .icons:hover {
-  color:  #901557;
+  color:  #3d6098;
 }
 
 .props {
@@ -223,7 +230,11 @@ padding-bottom: 20px;
 
 .card-title{
   text-align: left;
-  color: #901557;
+  color: black;
+}
+
+.card-link{
+  color:  #1597BB;
 }
 .heading-title {
     margin-bottom: 100px;
